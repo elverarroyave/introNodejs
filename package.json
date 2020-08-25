@@ -1,0 +1,19 @@
+{
+  "name": "intronodejs",
+  "version": "1.0.0",
+  "description": "Aprendiendo Node.js Express y Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elverarroyave/introNodejs.git"
+  },
+  "author": "Elver Arroyave @elverArroyave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elverarroyave/introNodejs/issues"
+  },
+  "homepage": "https://github.com/elverarroyave/introNodejs#readme"
+}
