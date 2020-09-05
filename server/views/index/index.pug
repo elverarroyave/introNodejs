@@ -1,0 +1,33 @@
+extends ../layout/index
+
+block slider 
+    .slider
+        h1 Río de Janeiro
+        em Aventura
+
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre nosotros
+        .row.mb-5
+            .col-md-6
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend vulputate ipsum, in scelerisque lorem mattis eleifend. Vestibulum posuere ultricies euismod. Sed nec justo commodo, condimentum enim vitae, venenatis turpis. In sed enim facilisis metus porta elementum nec ut nisi. Phasellus a pellentesque nisi. Sed viverra porta leo, et molestie erat sodales et. 
+                p Vestibulum ac sollicitudin odio, non gravida ex. Donec vitae dolor nisl. Morbi non massa odio. Integer tempus ac risus eget pulvinar. Proin efficitur, mi vitae sodales facilisis, magna odio dictum leo, quis tincidunt elit quam sit amet ante. 
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", class="img-fluid")
+        h2.text-center.mb-5 Próximos viajes
+        include ../layout/partials/viajes
+    h2.text-center.mb-5 ¡OFERTAS!
+    .descuento
+        .container
+            .row
+                .col-md-6  
+                    .contenido
+                        h3 5% de descuento
+                        p.titulo Viaje a Cancada
+                        p.fecha 20 de Marzo de 2021 - 28 de Marzo de 2021
+                        p.precio $2.500 USD
+
+    .container
+        h2.text-center.my-5 Testimonios
+        include ../layout/partials/testimonios
